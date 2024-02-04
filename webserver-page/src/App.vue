@@ -29,6 +29,7 @@ async function readTextFile(filePath) {
 <template>
   <img class="h-auto w-80 mx-auto my-12" src="/logo.png" alt="Ron Dearing Logo">
   <h1 class=" text-center mx-auto mb-12 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">RDUTC Year 13 websites list</h1>
+  <h2 class=" text-center mx-auto mb-12 text-lg leading-none tracking-tight text-gray-900 md:text-xl lg:text-2xl ">A place where year 13 RDUTC students website coursework is hosted locally for them to view</h2>
   <hr class="h-px mt-8 bg-gray-200 border-2 mx-auto dark:bg-gray-700 w-90">
   <year_groups v-if="loaded" v-for="year in fileContent" :people="year"/>
   <hr class="h-px my-8 bg-gray-200 border-1 mx-auto dark:bg-gray-700 w-full">
